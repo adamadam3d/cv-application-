@@ -1,0 +1,37 @@
+.form{
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+.none{
+    display: none;
+}
+button[type="submit"]{
+    margin-top: 10px;
+    
+}
+.subhead {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.email{
+    max-width: 100px;
+    overflow-x: auto;
+
+}
+.gform{
+    outline-style: solid;
+    outline-color: red;
+}
+header{
+    text-align: left;
+    background-color: grey;
+}
